@@ -1,6 +1,6 @@
 require "test_greet/version"
 
-module TestGreet
+class TestGreet
   def self.greet
     puts "Hello World!"
   end
