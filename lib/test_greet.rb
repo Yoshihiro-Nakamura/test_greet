@@ -1,5 +1,7 @@
 require "test_greet/version"
 
 module TestGreet
-  # Your code goes here...
+  def self.greet
+    puts "Hello World!"
+  end
 end
